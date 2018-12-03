@@ -1,5 +1,5 @@
-# Sequencer
-===========
+Sequencer
+=========
 Automatic sequence generator for Sublime Text 3.
 
 ## Sales pitch
