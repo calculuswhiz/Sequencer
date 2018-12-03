@@ -31,7 +31,7 @@ Flags:
 After enter is pressed, it will then insert the sequence in order starting from the first region in the file. If a cursor has made a selection, it will start at the end of the region (or beginning if overridden).
 
 ## Default Usage
-
+Loads defaults from package settings. Think of it as automatically building the prompt input described above.
 
 ## Keybinding
 I couldn't think of a good keybinding to use, so you're on your own with this. The interactive command is `sequencer_prompt`, and the command to use your settings file is `generate_sequence`.
