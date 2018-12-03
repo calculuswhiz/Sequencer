@@ -1,0 +1,10 @@
+[
+  { 
+  	"caption": "Sequencer: Generate Sequence at Edit Points (defaults)",
+  	"command": "generate_sequence"
+  },
+  {
+  	"caption": "Sequencer: Generate Sequence at Edit Points (interactive)",
+    "command": "sequencer_prompt" 
+  }
+]

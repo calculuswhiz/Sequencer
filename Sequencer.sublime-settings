@@ -1,0 +1,13 @@
+{
+	// The starting number
+	"start" : "1",
+	
+	// The spacing in between each number
+	"interval" : "1",
+	
+	// Additional flags separated by spaces
+	// f - floating point output (otherwise floor value is taken)
+	// w:x - enforce min-width of x characters by padding with 0s
+	// pre - insert at beginning of selection regions
+	"flags" : ""
+}

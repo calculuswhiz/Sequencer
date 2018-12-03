@@ -1,0 +1,70 @@
+[
+  {
+    "id": "edit",
+  	"children":
+  	[
+  		{
+  			"id": "text",
+  			"children":
+  			[
+  				{ "caption": "-" },
+					{
+						"mnemonic": "q",
+				  	"caption": "Generate Sequence at Edit Points (defaults)",
+				  	"command": "generate_sequence"
+				  },
+					{
+				  	"caption": "Generate Sequence at Edit Points (interactive)",
+		  			"command": "sequencer_prompt"
+					}
+  			]
+  		}
+  	]
+  },
+  { 
+  	"id": "preferences",
+    "children": 
+    [
+      { 
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": 
+        [
+          { 
+          	"caption": "Sequencer",
+            "children": 
+            [
+              { 
+              	"caption": "README",
+                "command": "open_file",
+                "args": 
+                {
+                  "file": "${packages}/Sequencer/README.md"
+                }
+              },
+              { "caption": "-" },
+              { 
+              	"caption": "Settings",
+                "command": "edit_settings",
+                "args": 
+                {
+                  "base_file": "${packages}/Sequencer/Sequencer.sublime-settings",
+                  "default": "{\n\t$0\n}\n"
+                }
+              },
+              { 
+              	"caption": "Key Bindings",
+                "command": "edit_settings",
+                "args": 
+                {
+                  "base_file": "${packages}/Sequencer/Default (${platform}).sublime-keymap",
+                  "default": "[\n\t$0\n]\n"
+                }
+              },
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
