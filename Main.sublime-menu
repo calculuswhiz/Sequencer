@@ -10,11 +10,11 @@
   				{ "caption": "-" },
 					{
 						"mnemonic": "q",
-				  	"caption": "Generate Sequence at Edit Points (defaults)",
+				  	"caption": "Generate Sequence (defaults)",
 				  	"command": "generate_sequence"
 				  },
 					{
-				  	"caption": "Generate Sequence at Edit Points (interactive)",
+				  	"caption": "Generate Sequence (interactive)",
 		  			"command": "sequencer_prompt"
 					}
   			]

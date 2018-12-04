@@ -2,18 +2,20 @@ Sequencer
 =========
 Automatic sequence generator for Sublime Text 3.
 
+In short, it generates a sequence using the active edit regions on the open document.
+
 ## Sales pitch
 Have you ever needed to insert a sequence of numbers into a text file -- at the *end* of a bunch of lines? Are you tired of having to open bash, type `seq 1 1 100`, try to match the number of edit points to your open text file, just to paste it in to find out that you messed up somewhere, and it inserted that sequence in 101 different places? Do you try to type it in manually? Fret no more! Introducing Sequencer, the Automatic sequence generator for Sublime Text 3! 
 
 How does it work? Sequencer adds two menu commands:
 
-- `Edit > Text > Generate Sequence at Edit Points (defaults)`
-- `Edit > Text > Generate Sequence at Edit Points (interactive)`  
+- `Edit > Text > Generate Sequence (defaults)`
+- `Edit > Text > Generate Sequence (interactive)`  
     
 And adds two palette commands: 
 
--  `Sequencer: Generate Sequence at Edit Points (defaults)`
--  `Sequencer: Generate Sequence at Edit Points (interactive)` 
+-  `Sequencer: Generate Sequence (defaults)`
+-  `Sequencer: Generate Sequence (interactive)` 
 
 Now all you have to do is add a bunch of edit points, run the command, and presto! All your lines have numbers!
 

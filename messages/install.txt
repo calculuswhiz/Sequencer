@@ -1,0 +1,15 @@
+[Sequencer - Install Message]
+	Thank you for installing Sequencer!
+
+    How it works: generates a sequence using the active edit regions on the open document.
+	
+	The manual is located here:
+		Preferences > Package Settings > Sequencer > README
+    
+    Sequencer adds two menu commands:
+        + `Edit > Text > Generate Sequence (defaults)`
+        + `Edit > Text > Generate Sequence (interactive)`  
+        
+    And adds two palette commands: 
+        +  `Sequencer: Generate Sequence (defaults)`
+        +  `Sequencer: Generate Sequence (interactive)` 
